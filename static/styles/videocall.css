@@ -1,0 +1,117 @@
+:root {
+    --shaddow:0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06);
+  }
+.video-container{
+    width: 30%;
+    min-width: 30vh;
+    min-height:30vh;
+    margin-top: 5px;
+    max-height: 90%;
+    background-color: #49a0f7;
+    border-radius: 7px;
+    padding: 7px;
+    margin: 20px;
+}
+
+#videoscontainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    flex-direction: row;
+    min-height: 45vh;
+    grid-column: auto;
+    justify-content: center;
+}
+#controls-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    column-gap: 1em;
+    position: fixed;
+    bottom: 20px;
+}
+.control-icon{
+    width: 20px;
+    height: 20px;
+    box-shadow: var(--shaddow);
+    margin: 10px;
+    background-color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
+.icon-wrapper{
+    margin-top: 30px;
+    text-align: center;
+}
+body{
+    background-color: #e2e5e7;
+    font-family: 'MyFont';
+}
+#leave-btn{
+    background-color: rgb(255,80,80,1);
+}
+@font-face {
+    font-family: 'MyFont';
+    src: url('/static/fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf') format('truetype');
+}
+
+.chatcontainer {
+    margin-top: 30px;
+    background-color: #70a1ff;
+    width: 100%;
+    min-width: 300px;
+    height:50vh;
+    grid-column: 2/-1;
+    border-radius: 20px;
+}
+
+.video-player{
+    height: 100%;
+    width: 100%;
+    border: 7px solid rgb(166, 166, 166);
+    border-radius: 10px;
+}
+/* -----------------Khaste nabashi---------------*/
+.users{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    text-align: center;
+    justify-content: center;
+}
+.user{
+    min-width:100px ;
+    height:40px;
+    display: none;
+    background-color: #49a0f7;
+}
+
+.chats{ 
+    overflow: scroll;
+    overflow-x: hidden;
+    border-radius: 10px;
+    background-color: #8bc3fb;
+    width: 100%;
+    height: 80%;
+}
+.text{
+    margin-left: 30px;
+    width: 90%;
+}
+.msend{
+    margin-right: 40px;
+    margin-left: 10px;
+}
+.form-chat{
+    display: flex;
+    justify-content: space-between;
+}
+.span-chat{
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 7px;
+    border-bottom: 3px  solid #e2e5e7 ;
+}
