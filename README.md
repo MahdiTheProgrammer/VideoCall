@@ -38,7 +38,7 @@ ngrok http 8000
 ```
 * Send the link to your friends and enjoy it.
 
-<img src="PICS/1.png" style="width:50%"/><br>
+<img src="PICS/1.png" style="width:20%"/><br>
 Mobile veiw
 
 #### It will be Available on internet soon with some improvements.
