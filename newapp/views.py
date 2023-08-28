@@ -13,8 +13,8 @@ def videocall_opener(request):
 
 
 def getToken(request):
-    appId = '7b8e56c519e44522b08ba45c28bd7429'
-    appCertificate= 'bc35232131b54c189e9e72ced55a4b60'
+    appId = ''
+    appCertificate= ''
     channelName=request.GET.get('channel')
     uid = random.randint(1,230)
     expirationTimeInSeconds = 3600 * 24
